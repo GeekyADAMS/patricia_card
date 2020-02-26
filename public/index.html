@@ -3,15 +3,92 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Patricia_Card">
+    <meta name="msapplication-TileImage" content="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#000">
+
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/esm/popper.min.js"> -->
+
+    <link rel="stylesheet" href="/css/aos.css">
+
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/animate.css" >
+
+    <link rel="icon" type="image/gif/png" href="assets/images/favicon.jpg">
+
+    <script data-pace-options='{ "ajax": false }' src="/js/pace.min.js"></script>
+	  <link href="/css/pace-theme-flash.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/js/aos.js"></script>
+    <!-- <script src="https://use.fontawesome.com/653b606b4a.js"></script> -->
+    <title>Patricia_Card</title>
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        width: 100vw;
+        max-width: none;
+      }
+      @media screen and (max-width: 480px) {
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        body::-webkit-scrollbar-track{
+            display: block;
+        }
+      }
+      
+      #app{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        width: 100vw;
+        max-width: none;
+      }
+      
+    </style>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>Turn on javascript for best experience on Patricia</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <script type="text/javascript">
+      AOS.init({
+          duration: 2500,
+      });
+
+      paceOptions = {
+        // Configuration goes here. Example:
+        elements: false,
+        restartOnPushState: false,
+        restartOnRequestAfter: false
+      }
+    </script>
   </body>
 </html>

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Graphik-Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-BoldItalic';
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-BoldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-Extralight';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-Extralight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-ExtralightItalic';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-ExtralightItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-LightItalic';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-MediumItalic';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-MediumItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-RegularItalic';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-Semibold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-SemiboldItalic';
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-SemiboldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-Thin';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphik-Thin Italic';
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url('~@/assets/fonts/Graphik/Graphik-ThinItalic.otf') format('opentype');
+}

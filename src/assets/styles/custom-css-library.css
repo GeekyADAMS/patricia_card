@@ -1,0 +1,410 @@
+@import url("~@/assets/fonts/Graphik.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1{
+  font-size: 3rem;
+  line-height: 3.875rem;
+}
+.h2{
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+}
+.h3{
+  font-size: 2rem;
+  line-height: 2.625rem;
+}
+.h4{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.title{
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+}
+.b1t{
+  font-size: 1.125rem;
+  line-height: 1.8125rem;
+}
+.blt{
+  font-size: 1.125rem;
+  line-height: 2.0625rem;
+}
+.b2t{
+  font-size: 1rem;
+  line-height: 1.6875rem;
+}
+.subtext{
+  font-size: 0.8755rem;
+  line-height: 1.375rem;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.a-c{
+  align-items: center;
+  justify-content: center;
+}
+.a-n-c{
+  justify-content: center;
+}
+.a-c-n{
+  align-items: center;
+}
+.space-btw{
+  justify-content: space-between;
+}
+.space-even{
+  justify-content: space-evenly;
+}
+.align-center{
+  align-items: center;  
+}
+.wrap{
+  flex-wrap: wrap;
+}
+
+.w100{
+  width: 100vw;
+}
+.w90{
+  width: 90vw;
+}
+.w80{
+  width: 80vw;
+}
+.w80p{
+  width: 80%;
+}
+.w20p{
+  width: 20%;
+}
+.w15p{
+  width: 15%;
+}
+.w85p{
+  width: 85%;
+}
+.w70{
+  width: 70vw;
+}
+.w60{
+  width: 60vw;
+}
+.w70p{
+  width: 70%;
+}
+.w50{
+  width: 50vw;
+}
+.w40{
+  width: 40vw;
+}
+.w30{
+  width: 30vw;
+}
+.w25{
+  width: 25vw;
+}
+.w20{
+  width: 20vw;
+}
+.w10{
+  width: 20vw;
+}
+.w00{
+  width: 0vw;
+}
+
+.h100{
+  height: 100vh;
+}
+.h90{
+  height: 90vh;
+}
+.h80{
+  height: 80vh;
+}
+.h70{
+  height: 70vh;
+}
+.h80p{
+  height: 80%;
+}
+.h60{
+  height: 60vh;
+}
+.h50{
+  height: 50vh;
+}
+.h40{
+  height: 40vh;
+}
+.h30{
+  height: 30vh;
+}
+.h20{
+  height: 20vh;
+}
+.h10{
+  height: 20vh;
+}
+.h00{
+  height: 0vh;
+}
+.h5{
+  height: 5vh;
+}
+.h7{
+  height: 7vh;
+}
+.w55{
+  width: 55vw;
+}
+.w-55p{
+  width: 100%;
+}
+
+.g-bold{
+  font-family: 'Graphik-Bold', 'Josefin Sans', Raleway, Arial;
+}
+.g-bold-i{
+  font-family: 'Graphik-BoldItalic', 'Josefin Sans', Raleway, Arial;
+}
+.g-eLight{
+  font-family: 'Graphik-Extralight', 'Josefin Sans', Raleway, Arial;
+}
+.g-eLight-i{
+  font-family: 'Graphik-ExtralightItalic', 'Josefin Sans', Raleway, Arial;
+}
+.g-light{
+  font-family: 'Graphik-Light', 'Josefin Sans', Raleway, Arial;
+}
+.g-light-i{
+  font-family: 'Graphik-LightItalic', 'Josefin Sans', Raleway, Arial;
+}
+.g-medium{
+  font-family: 'Graphik-Medium', 'Josefin Sans', Raleway, Arial;
+}
+.g-medium-i{
+  font-family: 'Graphik-MediumItalic', 'Josefin Sans', Raleway, Arial;
+}
+.g-regular{
+  font-family: 'Graphik-Regular', 'Josefin Sans', Raleway, Arial;
+}
+.g-regular-i{
+  font-family: 'Graphik-RegularItalic', 'Josefin Sans', Raleway, Arial;
+}
+.g-sBold{
+  font-family: 'Graphik-Semibold', 'Josefin Sans', Raleway, Arial;
+}
+.g-sBold-i{
+  font-family: 'Graphik-SemiboldItalic', 'Josefin Sans', Raleway, Arial;
+}
+.g-thin{
+  font-family: 'Graphik-Thin', 'Josefin Sans', Raleway, Arial;
+}
+.g-thin-i{
+  font-family: 'Graphik-Thin Italic', 'Josefin Sans', Raleway, Arial;
+}
+.poppins{
+  font-family: 'Poppins', 'Josefin Sans', Raleway, Arial;
+}
+.t-center{
+    text-align: center;
+}
+.white{
+  color: white;
+}
+.milk{
+  color: rgb(221, 221, 221);
+}
+.darkTxt{
+  color: #383838;
+}
+.darkBg{
+  background: #101820;
+}
+.blueTxt{
+  color: rgb(44, 135, 240);
+}
+.bit-fade{
+  opacity: .8;
+}
+.tiny{
+  width: 1.0rem;
+  height: 1.1rem;
+}
+.h75{
+  height: 75vh;
+}
+.point{
+  cursor: pointer;
+}
+
+.h100p{
+  height: 100%;
+}
+.w50p{
+  width: 50%;
+}
+.w60p{
+  width: 60%;
+}
+.h0{
+  height: 0px;
+  overflow-y: hidden;
+  transition: height 5s linear .5s;
+}
+.blue-btn{
+  background: #0050AF;
+}
+.noDisplay{
+  display: none;
+}
+.roundDiv-sm{
+  border-radius: 100px;
+}
+.scroll-x{
+  overflow-x: scroll;
+}
+.scroll-x::-webkit-scrollbar{
+  display: none;
+}
+.p-color{
+  color: #0267FF;
+}
+.fit{
+  width: fit-content
+}
+.mt-p5{
+  margin-top: .5rem;
+}
+.mt-1{
+  margin-top: 1rem;
+}
+.mt-2{
+  margin-top: 2rem;
+}
+.mt-3{
+  margin-top: 3rem;
+}
+.mt-5{
+  margin-top: 5rem;
+}
+.mt-7{
+  margin-top: 7rem;
+}
+.ml-13{
+  margin-left: 13rem;
+}
+.ml-np1{
+  margin-left: -.1rem;
+}
+.ml-n2{
+  margin-left: -2rem;
+}
+.ml-1{
+  margin-left: 1rem
+}
+.ml-8{
+  margin-left: 8rem;
+}
+.mr-1{
+  margin-right: 1rem;
+}
+.mr-3{
+  margin-right: 3rem;
+}
+.mr-5{
+  margin-right: 5rem;
+}
+.mr-8{
+  margin-right: 5rem;
+}
+.mb-2{
+  margin-bottom: 2rem;
+}
+.mb-3{
+  margin-bottom: 3rem;
+}
+.cta-btn{
+  padding: .8rem 1rem;
+  border: none;
+}
+
+.round-2{
+  border-radius: 5px;
+}
+.p-bg{
+  background: #0050AF;
+}
+.no-deco{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  .s-w100{
+    width: 100vw;
+  }
+  .s-w80{
+    width: 80vw;
+  }
+  .flex-col-m{
+    flex-direction: column;
+  }
+  .flex-row-m{
+    flex-direction: row;
+  }
+  .s-mt-1{
+    margin-top: 1rem;
+  }
+  .s-mt-5{
+      margin-top: 5rem;
+  }
+  .s-ml-1p5{
+      margin-left: 2em;
+  }
+  .s-ml-n2{
+      margin-left: -2em;
+  }
+  .s-ml-8{
+      margin-left: 8rem;
+  }
+  .s-mr-1p5{
+      margin-right: 1.5rem;
+  }
+  .w90-m{
+      min-width: 90vw;
+  }
+  .w100-m{
+    width: 100vw;
+  }
+  .w90-m{
+    width: 90vw;
+  }
+  .w80p-m{
+      width: 80%;
+  }
+  .w100p-m{
+      width: 100%;
+  }
+  .m-margin{
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .w-100{
+    width: 55vw;
+  }
+}
