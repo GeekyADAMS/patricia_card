@@ -1,8 +1,8 @@
 <template>
     <div class="footer w100 mt-5 flex-col a-c">
-        <h3 class="h2 g-medium w30 w80p-m mt-5 t-center milk">Anywhere  in the world, we've got you covered!.</h3>
+        <h3 class="h3 g-medium w30 w80p-m mt-5 t-center milk">Anywhere  in the world, we've got you covered!.</h3>
 
-        <p class="blt g-regular w60 w100p-m milk t-center mt-2">
+        <p class="blt g-regular w60 w95p-m milk t-center mt-2" >
         Our services are available to you anywhere, anytime. Each Patricia system is built for you and tailored to suit your need. That’s how we plan to change the world. By joining Patricia, you help to make this dream come true and change the world with us.
         </p>
 

@@ -12,7 +12,7 @@
     outline: none;
     border: none;
     border-radius: 6px;
-    background-color: #0050AF;
+    background-color: var(--light-blue);
     overflow: hidden;
     transition: color 0.4s ease-in-out;
     padding: 1.2rem 2rem;
@@ -29,7 +29,7 @@
     width: 3em;
     height: 3em;
     border-radius: 50%;
-    background-color: #fee715;
+    background-color: var(--pa-yellow);
     transform-origin: center;
     transform: translate3d(50%, -50%, 0) scale3d(0, 0, 0);
     transition: transform 0.7s ease-in-out;
@@ -37,7 +37,7 @@
   
   .anime-btn-1:hover {
     cursor: pointer;
-    color: #383838;
+    color: var(--pa-font);
   }
   
   .anime-btn-1:hover::before {
@@ -125,7 +125,7 @@
     animation-delay: 4s;
   }
 .green{
-    color: #188F32;
+    color: var(--pa-green);
 }
 .flip-card {
     animation-duration: 5s;
@@ -159,27 +159,27 @@
     border-bottom: 1.5px solid #188F32;
 }
 .non-active{
-    color: rgb(61, 61, 61);
+    color: var(--smoke-dark);
     opacity: .5;
 }
 .card-use-contain{
-    background: rgb(240, 240, 240);;
+    background: var(--snow-300);
 }
 .faqs>div>div>.quest{
     padding: .8rem .7rem;
-    background: rgb(228, 238, 255);
+    background: var(--pale-blue);
     box-sizing: border-box;
 }
 .faqs>div>div>.sign{
     padding: .6rem;
     box-sizing: border-box;
-    border: 2px solid #0050AF;
-    color: #0050AF;
+    border: 2px solid var(--blue);
+    color: var(--blue);
     font-size: 2rem;
 }
 .answer-slot{
     border-radius: 0 0 10px 10px;
-    background: rgb(228, 238, 255);
+    background: var(--pale-blue);
     padding: 2rem;
     box-sizing: border-box;
 }
@@ -189,12 +189,16 @@
 }
 
 .footer{
-    background: #323643;
+    background: var(--pa-font);
 }
 .line{
     height: 1.5px;
-    background: rgb(138, 138, 138);
+    background: var(--smoke-200);
 }
+/* .hero{
+  border-radius: 0 0 0 250px;
+  border-bottom: 1px solid var(--pa-font);
+} */
 
 /* Mobile responsiveness cde starts here */
 @media screen and (max-width: 480px) {

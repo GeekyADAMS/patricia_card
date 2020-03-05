@@ -11,6 +11,17 @@
         display: none;
     }
 }
+
+.desktop-nav>ul>li{
+    color: var(--pa-font);
+}
+.loginBtn:hover{
+    background: var(--pa-green);
+    color: white;
+}
+.startBtn:hover{
+    opacity: .6;
+}
 .drop-act{
     width: 85%;
     padding: .6rem;
@@ -21,7 +32,7 @@
     text-align: center;
 }
 .green-act{
-    background: rgb(44, 216, 144);
+    background: var(--pa-green);
     color: white;
 }
 .drop-menu-contain{
@@ -37,7 +48,7 @@
     margin-left: 1.5em;
 }
 .drop{
-    border-top: 3px solid rgb(133, 35, 224);
+    border-top: 3px solid var(--dark-blue);
     transition: height .8s;
     height: 280px;
 }
@@ -65,7 +76,7 @@
 .menu{
     width: 28px;
     height: 3px;
-    background: rgb(133, 35, 224);
+    background: var(--pa-font);
     border-radius: 25px;
     margin: .135rem 0;
 }
@@ -81,38 +92,9 @@
     /* background-image: url('~@/assets/STASHIP-UNIVERS-IMG/traveler.svg');
     background-size: unset; */
 }
-.travNav{
-    background: rgb(99,99,99);
-    /* background-image: url('~@/assets/STASHIP-UNIVERS-IMG/travel-booking.svg');
-    background-size: initial; */
-}
-.preNav{
-    background: #101820;
-    box-sizing: border-box;
-    height: fit-content;
-}
-.preNav-ul {
-    width: 87vw;
-    color: white;
-    font-weight: 300;
-}
-.preNav-ul > li{
-    color: white;
-    padding: .8rem 0;
-    font-weight: lighter;
-    border-radius: 0;
-    list-style-type: none;
-    margin-left: .5rem;
-    margin-right: 1rem;
-    font-family: Raleway, Arial;
-    font-size: .9rem;
-    height: auto;
-}
+
 .inline{
     display: inline-block;
-}
-.preNav-ul> li:hover, .preNav-ul> li:active{
-    border-bottom: 2px solid white;
 }
 
 .navTrav{
@@ -161,6 +143,9 @@ nav{
 .def:hover{
     color:rgb(44, 135, 240);
 }
+router-link:hover{
+    color:rgb(44, 135, 240);
+}
 .blue-btn{
     background-color: #0050AF;
     z-index: 1;
@@ -170,7 +155,7 @@ nav{
     color: white;
     padding: 0.5em 1em;
     outline: none;
-    border-radius: 5px;
+    border-radius: 80px;
 }
 
 .blue-btn::before {
@@ -181,26 +166,25 @@ nav{
     bottom: 0;
     left: 0;
     right: 0;
-    border-radius: 5px;
+    border-radius: 80px;
     border: 4px solid rgb(44, 135, 240);
     transform-origin: center;
     transform: scale(1);
 }
 .blue-btn:hover {
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 80px;
 }
 .blue-btn:hover::before {
     transition: all 0.75s ease-in-out;
     transform-origin: center;
     transform: scale(1.75);
     opacity: 0;
-    border-radius: 5px;
+    border-radius: 80px;
 }
-
 #navItemContainer{
     padding: .5rem;
-    border-radius: 5px;
+    border-radius: 80px;
 }
 #logo{
     height: 1.85em;

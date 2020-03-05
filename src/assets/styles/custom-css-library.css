@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .h1{
   font-size: 3rem;
   line-height: 3.875rem;
@@ -266,7 +267,7 @@
   transition: height 5s linear .5s;
 }
 .blue-btn{
-  background: #0050AF;
+  background: var(--blue);
 }
 .noDisplay{
   display: none;
@@ -281,10 +282,18 @@
   display: none;
 }
 .p-color{
-  color: #0267FF;
+  color: var(--blue);
 }
 .fit{
   width: fit-content
+}
+.dots{
+  background: url('~@/assets/img/illustrations/dots.svg');
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+}
+.mt-p3{
+  margin-top: .3rem;
 }
 .mt-p5{
   margin-top: .5rem;
@@ -338,7 +347,7 @@
   margin-bottom: 3rem;
 }
 .cta-btn{
-  padding: .8rem 1rem;
+  padding: .5rem 7rem;
   border: none;
 }
 
@@ -391,6 +400,9 @@
   }
   .w90-m{
     width: 90vw;
+  }
+  .w95p-m{
+    width: 95%;
   }
   .w80p-m{
       width: 80%;

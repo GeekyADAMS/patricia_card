@@ -4,16 +4,16 @@
     <div class="flex-col w100 a-c navTrav" v-if="navStat">
         <nav>
             <div class="nav-flex">
-                <router-link to="/" style="color: black; text-decoration: none;"><img id="logo" src="@/assets/img/logo/logo.png" class="point" router to="/"></router-link>
+                <router-link to="/" style="color: black; text-decoration: none;"><img id="logo" src="@/assets/img/logo/logo.svg" class="point" router to="/"></router-link>
 
                 <div class="desktop-nav" v-if="!mobile">
-                    <ul class="g-regular">
-                        <li class="secondLiSet t-center g-regular"><span id="navItemContainer" :class="navList[0].class"><router-link to="/search-school" style="text-decoration: none; color: rgba(0,0,0,.5)">{{navList[0].content}}</router-link></span></li>
-                        <li class="secondLiSet t-center g-regular"><span id="navItemContainer" :class="navList[1].class" v-html="navList[1].content"></span></li>
-                        <li class="secondLiSet t-center g-regular"><span id="navItemContainer" :class="navList[2].class"  v-html="navList[2].content"></span></li>
-                        <li class="secondLiSet t-center g-regular"><span id="navItemContainer" :class="navList[3].class" v-on:click="splitNavStatus = !splitNavStatus" v-html="navList[3].content"></span></li>
-                        <li class="secondLiSet t-center g-regular"><span id="navItemContainer" :class="navList[4].class">{{navList[4].content}}</span></li>
-                        <li class="secondLiSet t-center g-regular"><span id="navItemContainer" :class="navList[5].class">{{navList[5].content}}</span></li>
+                    <ul class="g-light">
+                        <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[0].class"><router-link to="/" style="text-decoration: none; color: var(--pa-font)" class="g-light def">{{navList[0].content}}</router-link></span></li>
+                        <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[1].class" v-html="navList[1].content"></span></li>
+                        <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[2].class"  v-html="navList[2].content"></span></li>
+                        <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[3].class" v-on:click="splitNavStatus = !splitNavStatus" v-html="navList[3].content"></span></li>
+                        <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[4].class">{{navList[4].content}}</span></li>
+                        <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[5].class">{{navList[5].content}}</span></li>
                     </ul>
                 </div>
 

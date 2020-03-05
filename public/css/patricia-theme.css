@@ -1,0 +1,83 @@
+:root {
+    --bg: white;
+    --text-color: #555;
+    --link-color: #639A67;
+    --link-hover: #205D67;
+
+    --base-blue: #032041;
+    --dark-blue: #0050AF;
+    --blue: #0276ff;
+    --light-blue: #4798ff;
+    --pale-blue: #e8f7ff;
+
+    --dark-yellow: #f88700;
+    --pa-yellow: #ffc820;
+    --light-yellow: #ffd55f;
+    --pale-yellow: #fffade;
+
+    --dark-green: #188f32;
+    --pa-green: #00d67d;
+    --light-green: #29eb7f;
+    --pale-green: #deffe5;
+
+    --dark-red: #a10000;
+    --pa-red: #cc2e2e;
+    --light-red: #d75c5c;
+    --pale-red: #fffade;
+
+    --pa-font: #323643;
+    --grey-200: #444854;
+    --grey-300: #575a65;
+
+    --smoke-dark: #9da8b6;
+    --smoke-100: #c0ccda;
+    --smoke-200: #d3dce6;
+    --smoke-300: #e0e6ed;
+
+    --snow-100: #e5e9f2;
+    --snow-200: #eff2f7;
+    --snow-300: #f9fafc;
+    --white: #ffffff;
+  }
+  .brand-colors{
+    --base-blue: #032041;
+    --dark-blue: #0050AF;
+    --blue: #0276ff;
+    --light-blue: #4798ff;
+    --pale-blue: #e8f7ff;
+  }
+  .secondary-color-yellow{
+    --dark-yellow: #f88700;
+    --pa-yellow: #ffc820;
+    --light-yellow: #ffd55f;
+    --pale-yellow: #fffade;
+  }
+  .secondary-color-green{
+    --dark-green: #188f32;
+    --pa-green: #00d67d;
+    --light-green: #29eb7f;
+    --pale-green: #deffe5;
+  }
+  .secondary-color-red{
+    --dark-red: #a10000;
+    --pa-red: #cc2e2e;
+    --light-red: #d75c5c;
+    --pale-red: #fffade;
+  }
+  .grey-normal{
+    --pa-font: #323643;
+    --grey-200: #444854;
+    --grey-300: #575a65;
+  }
+  .grey-smoke{
+    --smoke-dark: #9da8b6;
+    --smoke-100: #c0ccda;
+    --smoke-200: #d3dce6;
+    --smoke-300: #e0e6ed;
+  }
+  .grey-snow{
+    --snow-100: #e5e9f2;
+    --snow-200: #eff2f7;
+    --snow-300: #f9fafc;
+    --white: #ffffff;
+  }
