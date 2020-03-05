@@ -8,7 +8,7 @@
 
                 <div class="desktop-nav" v-if="!mobile">
                     <ul class="g-light">
-                        <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[0].class"><router-link to="/" style="text-decoration: none; color: var(--pa-font)" class="g-light def">{{navList[0].content}}</router-link></span></li>
+                        <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[0].class">{{navList[0].content}}</span></li>
                         <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[1].class" v-html="navList[1].content"></span></li>
                         <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[2].class"  v-html="navList[2].content"></span></li>
                         <li class="secondLiSet t-center g-light"><span id="navItemContainer" :class="navList[3].class" v-on:click="splitNavStatus = !splitNavStatus" v-html="navList[3].content"></span></li>
